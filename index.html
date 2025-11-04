@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Midterm Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="exam-container">
+        <!-- Header with progress and score -->
+        <header class="exam-header">
+            <div class="header-content">
+                <h1 class="exam-title">Machine Learning Midterm</h1>
+                <div class="exam-info">
+                    <div class="progress-info">
+                        <span id="slideCounter">Slide 0 of 22</span>
+                    </div>
+                    <div class="score-info">
+                        <span id="scoreDisplay">Score: 0/20</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </header>
+
+        <!-- Main content area for slides -->
+        <main class="exam-content" id="examContent">
+            <!-- Slides will be dynamically generated here -->
+        </main>
+
+        <!-- Navigation footer -->
+        <footer class="exam-footer">
+            <button class="btn btn--secondary" id="prevBtn" disabled>Previous</button>
+            <button class="btn btn--primary" id="nextBtn">Next</button>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
